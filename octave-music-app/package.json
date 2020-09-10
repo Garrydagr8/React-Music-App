@@ -1,0 +1,39 @@
+{
+  "name": "octave-music-app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@apollo/react-hooks": "4.0.0",
+    "@material-ui/core": "4.11.0",
+    "@material-ui/icons": "4.9.1",
+    "apollo-boost": "0.4.9",
+    "apollo-cache-inmemory": "1.6.6",
+    "apollo-client": "2.6.10",
+    "apollo-link-http-common": "0.2.16",
+    "apollo-link-ws": "1.0.20",
+    "graphql": "15.3.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-hooks": "1.0.1",
+    "react-player": "2.6.2",
+    "react-scripts": "3.4.3",
+    "subscriptions-transport-ws": "0.9.18"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
